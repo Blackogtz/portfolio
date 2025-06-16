@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anold Weria | Cybersecurity & Design</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/icons/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#" class="logo">Anold Weria</a>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#designs">Designs</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span>Anold Weria</span></h1>
+                <h2 class="hero-subtitle">Cybersecurity Expert & Graphic Designer</h2>
+                <div class="hero-btns">
+                    <a href="#designs" class="btn btn-primary">View My Designs</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-frame">
+                    <img src="images/profile.png" alt="Anold Weria" loading="lazy">
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>I'm a passionate cybersecurity professional with a creative side in graphic design. I combine technical expertise with visual storytelling to create secure and beautiful digital experiences.</p>
+                    
+                    <div class="skills">
+                        <h3>My Skills</h3>
+                        <div class="skill-bars">
+                            <div class="skill" data-skill="Cybersecurity" data-percent="90">
+                                <div class="skill-name">Cybersecurity</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                                <div class="skill-percent">90%</div>
+                            </div>
+                            <div class="skill" data-skill="Graphic Design" data-percent="85">
+                                <div class="skill-name">Graphic Design</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                                <div class="skill-percent">85%</div>
+                            </div>
+                            <div class="skill" data-skill="Web Development" data-percent="75">
+                                <div class="skill-name">Web Development</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                                <div class="skill-percent">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-timeline">
+                    <h3>My Journey</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2021 - Present</div>
+                            <h3 class="timeline-title">Cybersecurity Specialist</h3>
+                            <p class="timeline-text">Working with various clients to secure their digital assets and infrastructure and providing education and 
+                                awareness to people on how to stay safe in digital world.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023</div>
+                            <h3 class="timeline-title">cybersecurity Practical Training</h3>
+                            <p class="timeline-text">Learned real life simulation of network security and penetration testing in a safe testing environments.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024 - Present</div>
+                            <h3 class="timeline-title">Graphic Design Freelancer</h3>
+                            <p class="timeline-text">Created visual identities and marketing materials for small businesses.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2025-2026</div>
+                            <h3 class="timeline-title">IT Security Intern</h3>
+                            <p class="timeline-text">Learned the fundamentals of network security and penetration testing at the major learning Cybersecurity company ina Tanzania.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Slideshow Section -->
+    <section id="designs" class="design-slideshow">
+        <div class="container">
+            <h2 class="section-title">My Design Work</h2>
+            <div class="slideshow-container">
+                <!-- Slides will be added via JavaScript -->
+            </div>
+            <div class="slideshow-controls">
+                <button class="control-btn prev-btn" aria-label="Previous design"><i class="fas fa-chevron-left"></i></button>
+                <div class="dots-container">
+                    <!-- Dots will be added via JavaScript -->
+                </div>
+                <button class="control-btn next-btn" aria-label="Next design"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">My Portfolio</h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="cyber">Cybersecurity</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="cyber">
+                    <img src="images/projects/firewallday.jpg" alt="Network Security Audit" class="portfolio-img" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Network Security Audit</h3>
+                        <p class="portfolio-category">Cybersecurity</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <img src="images/projects/mylogo.jpg" alt="Brand Identity" class="portfolio-img" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Brand Identity</h3>
+                        <p class="portfolio-category">Design</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+                <!-- Add more portfolio items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>blacktechtz@example.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+255 676 875 830</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+                        <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Anold Weria. All rights reserved.</p>
+            <a href="#" class="back-to-top" aria-label="Back to top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    // Load config from JSON file
+    particlesJS.load('particles-js', 'js/particles.json', function () {
+      console.log('Particles.js config loaded');
+    });
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>
